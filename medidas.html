@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Conversor de polegadas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header><h1>Conversor de polegadas</h1></header>
+    <nav>
+        <a href="./index.html">Conversor de texto</a>
+        <a href="./medidas.html">Conversor de polegadas</a>
+        <a href="./celsius.html">Conversor de celsius</a>
+    </nav>
+    <section>
+        <h2>Conversor</h2>
+        <P>Insira abaixo um valor em polegadas para ser convertido para mm (milímetros), milhas, jardas e pés:</P>
+        <form oninput="polegadasConv(a.value)">
+            <label>Polegadas: </label>
+            <input type="number" id="a" value="0">
+            <p id="mm">mm = 0</p>
+            <p id="milha">milha(s) = 0</p>
+            <p id="jarda">jarda(s) = 0</p>
+            <p id="pe">pé(s) = 0</p>
+            </form>
+    </section>
+</body>
+</html>

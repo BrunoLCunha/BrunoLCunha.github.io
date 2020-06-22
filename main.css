@@ -4,7 +4,7 @@ nav{
     color: white;
     border-radius: 20px;
 }
-a:link, a:visited {
+nav a:link, nav a:visited {
     color: white;
     padding: 14px 25px;
     text-align: center;
