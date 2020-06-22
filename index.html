@@ -8,6 +8,20 @@
     <script src='main.js'></script>
 </head>
 <body>
-    
+    <header><h1>HomePage</h1></header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="./about-us.html">About Us</a>
+    </nav>
+    <section>
+        <h3>Entrada de texto:</h3>
+            <textarea id="texto" name="areaTexto" rows="5" cols="60" onkeydown="contarCaracteres()"  placeholder="Escreva aqui seu texto..."></textarea>
+              <br><br>
+              <label id="quantidade" for="areaTexto">0</label>
+              <br><br>
+              <button onclick="tudoMinusculo()">minúsculas</button>
+              <button onclick="tudoMaiusculo()">MAIÚSCULAS</button>
+    </section>
 </body>
 </html>
